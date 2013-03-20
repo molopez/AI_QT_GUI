@@ -14,11 +14,14 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    ../../AI_Project/AI_prog1/Map.cpp \
-    ../../AI_Project/AI_prog1/City.cpp
+    Map.cpp \
+    City.cpp
 
 HEADERS  += mainwindow.h \
-    ../../AI_Project/AI_prog1/Map.h \
-    ../../AI_Project/AI_prog1/City.h
+    Map.h \
+    City.h
 
 FORMS    += mainwindow.ui
+
+
+

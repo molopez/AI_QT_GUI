@@ -134,9 +134,15 @@
      <rect>
       <x>510</x>
       <y>10</y>
-      <width>69</width>
+      <width>161</width>
       <height>22</height>
      </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+      <horstretch>26</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
     </property>
    </widget>
    <widget class="QLabel" name="lblHeuristic">
@@ -176,6 +182,16 @@
     </property>
     <property name="text">
      <string>Find Path</string>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="txtboxDispalyPath">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>121</width>
+      <height>241</height>
+     </rect>
     </property>
    </widget>
   </widget>

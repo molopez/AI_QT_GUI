@@ -2,6 +2,7 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include "Map.h"
 
 namespace Ui {
 class MainWindow;
@@ -22,9 +23,14 @@ private slots:
 
     void on_btnSelectConn_clicked();
 
+    void on_btnBuildMap_clicked();
+
 private:
     Ui::MainWindow *ui;
     QString openFile();
+    Map myMap;
+
+
 };
 
 #endif // MAINWINDOW_H
